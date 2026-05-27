@@ -1,0 +1,12 @@
+body{
+    background-color:darkorange;
+}
+
+/* this is a comment in CSS */
+
+/* to target all paragraphs, make a rule for p */
+p{
+    color:ghostwhite;
+}
+header{color:ghostwhite;
+}
