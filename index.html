@@ -10,8 +10,47 @@
         <h1>HTML Week 3 - Semantics and Lists</h1>
         <h3>plus an intro to CSS</h3>
     </header>
-    <main>
 
+    <nav>
+        <!-- the nav tag reserves a space for navigation-->
+         <a href="#">Home</a>
+         <ul>
+            <!-- ul stands for unordered list-->
+             <li><a href="#" title="the about page">About</a></li>
+              <li><a href="#">Stuff</a></li>
+               <li><a href="#">Contact</a></li>
+         </ul>
+    </nav>
+    
+    <main>
+        <!--article is a self contained block of text-->
+        <article>
+            <h2>an article is a self contained block of text</h2>
+       <p> this is the <em>text</em> of the article...</p>
+       <blockquote>
+        <p>A blockquote has different default styling from regular text</p>
+        <cite>-- said someone important</cite>
+        </blockquote>
+        <!--lists are a particular way of organizing content in HTML-->
+        <ol>
+            <!-- ol stands for ordered "list"-->
+             <li>This is the first item</li>
+             <li>This is the second item</li>
+             <li>This is the third item</li>
+        </ol>
+        </article>
+    <!--an aside is for seperate content that isnt necessary to understand the page-->
+       <aside>
+        <!-- an aside is for seperate content that isn't necessary to understand the page-->
+        <h2>Asides should also have a heading</h2>
+        <p>this is the text of the article</p>
+        <p>A second paragrph</p>
+        <!-- a P tag is a block element - it will always push content down to the next line-->
+         <em>Emphasized text</em> <strong> Extra emphasized text</strong>
+         <!-- "em" and "strong" tags are inline elements, they go with the flow of the text-->
+          <p>This is the 3<sup>rd</sup> week <br>
+        The BR tag adds a single line break</p>
+       </aside>
     </main>
     <footer>
         <p>scary stuff &copy; scary people</p>
